@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+    font-family: 'Indie Flower', cursive;
+    background: url("http://artfcity.com/wp-content/uploads/2014/06/Nickbriz.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+nav{
+  background-color: rgba(255,255,255,0.3);
+  color: #FFF;
+  padding: 14px;
+  overflow: hidden;
+
+}
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+.navbar:hover{
+  text-shadow: -3px -3px 2px skyblue, 3px 3px 2px skyblue, -3px 3px 2px skyblue, 3px -3px 2px skyblue;
+   color: #fff;
+}
+.nav-right{
+  float: right;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+.nav-left {
+  font-size: 2em;
+  float: left;
+  padding-left: 35px;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  padding-right: 10px;
+}
+.text-center{
+  text-align: center;
+}
+/*.bottom-header{
+  background: url("http://artfcity.com/wp-content/uploads/2014/06/Nickbriz.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}*/
+.overlay{
+  padding: 10em 0;
+  z-index: 800;
+  color: #FFF;
+}
