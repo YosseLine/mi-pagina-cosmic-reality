@@ -28,8 +28,8 @@
   box-sizing: border-box;
   font-family: 'Indie Flower', cursive;
 }
-body{
-  width: 100%;
+embed{
+  display: -webkit-box;
 }
 header{
     background: url("../assets/imgs/fondo.gif");
