@@ -95,22 +95,26 @@ footer{
 }
 .info-box{
   color: #393939;
-  padding: 3rem 4.5rem;
-  display: inline-block;
+  padding: 2rem 2rem 0 2rem;
   align-self: center;
+  display: flex;
+  flex-direction: column;
 }
+
 .info-box h2 {
   line-height: 1.5;
+  text-align: center;
 }
 img{
-  padding: 10px;
-  width: 100%;
-  max-width: 100%;
-  border-radius: 25px;
+  width: -webkit-fill-available;
+  height: 14rem;
+}
+figure{
+  display: inline-flex;
 }
 .info{
   align-self: center;
-  font-size: 18px;
+  font-size: 16px;
   display:inline-block;
 	vertical-align:middle;
 	line-height:normal;
@@ -124,40 +128,4 @@ img{
 
 .view-desktop {
   display: none;
-}
-
-@media (min-width: 768px) {
-  .info-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10rem 4.5rem;
-  }
-
-  .overlay{
-    padding: 10rem 0;
-  }
-
-  .view-mobile {
-    display: none;
-  }
-
-  .view-desktop {
-    display: block;
-  }
-  .overlay{
-    padding: 12em 0;
-  }
-}
-
-@media (min-width: 1200px) {
-.info-box{
-  padding-top: 8rem;
-}
-.info{
-  font-size: 40px;
-}
-.overlay{
-  padding: 15em 0;
-}
 }

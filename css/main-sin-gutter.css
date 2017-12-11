@@ -216,6 +216,25 @@
     .col-sm-offset-12 {
       margin-left: 100%;
     }
+    .info-box{
+      justify-content: center;
+      padding: 8rem 4.5rem;
+    }
+
+    .overlay{
+      padding: 10rem 0;
+    }
+
+    .view-mobile {
+      display: none;
+    }
+
+    .view-desktop {
+      display: block;
+    }
+    .overlay{
+      padding: 12em 0;
+    }
   }/*sm*/
 
   @media (min-width: 992px) {
@@ -314,6 +333,17 @@
     .col-md-offset-12 {
       margin-left: 100%;
     }
+    img{
+      height: 20rem;
+    }
+  }
+  @media (min-width: 1200px) {
+  .info{
+    font-size: 17px;
+  }
+  .overlay{
+    padding: 15em 0;
+  }
   }
 
   /*
