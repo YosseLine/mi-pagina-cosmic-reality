@@ -332,22 +332,7 @@
     .col-md-offset-12 {
       margin-left: 100%;
     }
-    img{
-      height: 20rem;
-    }
   }
-  @media (min-width: 1200px) {
-  .info{
-    font-size: 17px;
-  }
-  .overlay{
-    padding: 15em 0;
-  }
-  .navbar{
-    padding-top: 20px;
-  }
-  }
-
   /*
   !Important
   0px -> 767px = xs

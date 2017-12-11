@@ -88,20 +88,26 @@ ul li{
 .box{
   width: 50%;
 }
-.info-box{
+div .info-box{
+  background-color: #FFF;
   color: #393939;
-  padding: 2rem 2rem 0 2rem;
+  height: 14rem;
   align-self: center;
   display: flex;
   flex-direction: column;
 }
 .info{
   align-self: center;
+  padding: 2rem 1rem 2rem 1rem;
   font-size: 16px;
-  display:inline-block;
-	vertical-align:middle;
-  line-height: 1.5;
+  vertical-align: middle;
+  line-height: 1.8;
   text-align: center;
+}
+section{
+  background-image: url('../assets/imgs/galaxy.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
 }
 figure{
   display: inline-flex;
@@ -126,4 +132,27 @@ footer{
 }
 .block{
   display: block;
+}
+@media screen and (min-width: 992px){
+  img{
+    height: 20rem;
+  }
+  div .info-box{
+    height: 20rem;
+  }
+}
+@media screen and (min-width: 1200px){
+.info-box{
+  padding-bottom: 8.8rem;
+  height: 20rem;
+  }
+.info{
+  font-size: 17px;
+}
+.overlay{
+  padding: 15em 0;
+}
+.navbar{
+  padding-top: 20px;
+}
 }
