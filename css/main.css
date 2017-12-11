@@ -53,8 +53,10 @@ a{
 }
 .nav-right{
   float: right;
-  padding-top: 10px;
   font-size: 1.2em;
+}
+.padding-ul{
+  padding-top: 10px;
 }
 .nav-left {
   font-size: 2em;
@@ -66,7 +68,7 @@ ul{
 }
 ul li{
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 8px;
 }
 .text-center{
   text-align: center;
@@ -121,4 +123,7 @@ footer{
 
 .view-desktop {
   display: none;
+}
+.block{
+  display: block;
 }

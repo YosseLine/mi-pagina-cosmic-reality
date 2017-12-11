@@ -343,6 +343,9 @@
   .overlay{
     padding: 15em 0;
   }
+  .navbar{
+    padding-top: 20px;
+  }
   }
 
   /*
