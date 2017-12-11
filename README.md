@@ -1,4 +1,4 @@
-# MI PÁGINA - COSMIC Reality
+# MI PÁGINA - COSMIC REALITY
 
 * **Track:** _Common Core._
 * **Curso:** _Crea tu propia red social._
